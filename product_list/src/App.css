@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 20px 100px 0 100px;
+  min-width: 1000px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.featured{
+  display: flex;
+  align-items: start;
+  gap: 80px;
+  h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 140%;
   }
-  to {
-    transform: rotate(360deg);
+
+
+  p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #7A7A7A;
+  }
+
+  .text{
+    color: #D64779;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 15px 0;
+    line-height: 140%;
+  }
+
+
+}
+
+.pharmacy{
+  max-width: 390px;
+}
+
+.all_products{
+  border: 2px solid #EDEDED;
+  width: 210px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  p{
+    font-family: sans-serif;
+    font-weight: 600;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.title{
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-size: 26px;
 }
