@@ -6,10 +6,10 @@ function App() {
     <body>
       <div className="App">
         <div className="featured">
-          <p className="text">Featured</p>
+          <p className="text">Destacados</p>
 
           <div className="pharmacy">
-            <h1>Featured Pharmacy Essentials</h1>
+            <h1>Escenciales Café Destacados</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque totam, in, amet praesentium ipsa similique id harum repudiandciis.
             </p>
           </div>
@@ -17,12 +17,12 @@ function App() {
         </div>
 
         <div className="all_products">
-          <p>All Products</p>
+          <p>Todos los Productos</p>
         </div>
         
       </div>
 
-        <h2 className="title">Product List:</h2>
+        <h2 className="title">Lista de Productos:</h2>
 
         <ProductList />
     </body>
